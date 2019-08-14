@@ -13,8 +13,7 @@ void OnAmxxDetach()
 }
 
 // There is no need to declare the function as static member.
-// We did that just on the header (namespace), it means that the function can be accessed anytime (without declaring a variable of "ModTuto_Natives" type).
-// Just add the namespace name and its certain function.
+// Just add the namespace and its certain function.
 cell AMX_NATIVE_CALL ModTuto_Natives::ModTuto_PrintMsg(AMX* amx, cell* params)
 {
 	char* pFullMsg = MF_FormatAmxString(amx, params, 1, 0);
