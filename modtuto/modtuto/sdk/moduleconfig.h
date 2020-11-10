@@ -6,7 +6,7 @@
 // Module info
 #define MODULE_NAME "Module Tutorial" // Full name
 #define MODULE_VERSION "N/A" // Version
-#define MODULE_AUTHOR "Adi Behluli" // Author name/username
+#define MODULE_AUTHOR "Adi" // Author name/username
 #define MODULE_URL "N/A" // Website
 #define MODULE_LOGTAG "ModTUTO" // Logging tag (used for debugging)
 #define MODULE_LIBRARY "modtuto" // Library name (case ignored) (no need for "_amxx" suffix)
